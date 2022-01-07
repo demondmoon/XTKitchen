@@ -1,4 +1,4 @@
-## Introduction
+## XT's Kitchen
 
 I built this website from ground-up by using React, Firebase and google map api.
 
