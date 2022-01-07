@@ -1,0 +1,26 @@
+.mealForm {
+  margin-top: 1rem;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.mealForm p {
+  margin-left: 1rem;
+}
+
+.mealForm button {
+  background-color: #1f9751;
+  color: #FFF;
+  padding: 0.25rem 1rem;
+  border-radius: 20px;
+  margin: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.mealForm button:hover,
+.mealForm button:active {
+  background-color: #146335;
+  border-color: #146335;
+}

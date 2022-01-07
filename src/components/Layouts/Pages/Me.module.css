@@ -1,0 +1,41 @@
+.me {
+  display: flex;
+  flex-direction: column;
+  margin: 7em auto 3em;
+  align-items: center;
+  text-align: center;
+}
+
+.me h2 {
+  padding: 1em;
+  font-size: 3rem;
+}
+
+.me div {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+.me img {
+  width: 50%;
+}
+
+.me p {
+  font-size: 1.5rem;
+  padding: 1em;
+}
+
+.me ul {
+  font-size: 1.3rem;
+}
+
+.me ul li{
+  padding: 0.5em;
+}
+
+.me a{
+  font-size: 1.5rem;
+}
+.me h3 {
+  margin-top: 2em;
+  font-size: 2rem;
+}

@@ -1,0 +1,37 @@
+.meal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: white;
+  max-width: 700px;
+}
+
+.meal h3{
+  cursor: pointer;
+}
+
+.mealImg {
+  width: 100%;
+  object-fit: cover;
+  padding: 0.8rem 0;
+  cursor: pointer;
+}
+
+.title {
+  font-family: "Dosis";
+  font-size: 1.4rem;
+}
+
+.mealForm {
+  align-self: flex-end;
+}
+
+.price {
+  position: absolute;
+  bottom: 1.7rem;
+  right: 2rem;
+}

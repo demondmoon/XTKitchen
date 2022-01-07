@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  width: 100%;
+  margin: 10rem 0 2rem;
+  padding: 1rem;
+}
+
+@media (min-width:768px) {
+  .menu {
+    margin-top: 6rem;
+  }
+}

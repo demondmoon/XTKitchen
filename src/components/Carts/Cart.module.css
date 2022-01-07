@@ -1,0 +1,96 @@
+.cart-items {
+  list-style: none;
+  margin: 0;
+  padding: 0 1em;
+}
+
+.title {
+  font-size: 3rem;
+  color: #1f9751;
+  margin-top: 0.7em;
+  margin-left: 0.3em;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1em 1em;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #1f9751;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #105f31;
+  border-color: #105f31;
+  color: white;
+}
+.clear {
+  color: #1f9751;
+  font: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #1f9751;
+  padding: 0.5rem 1rem;
+  margin-left: 1.5em;
+  margin-top:1em;
+}
+
+.clear:hover,
+.clear:active {
+  background-color: #1f9751 ;
+  color: #FFF;
+}
+
+
+.actions .button--alt {
+  color: #1f9751;
+}
+
+.actions .button {
+  background-color: #1f9751;
+  color: white;
+}
+
+.sending {
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.success {
+  margin: 2em;
+  text-align: center;
+}
+
+.loading {
+  margin: 1em auto;
+  display: block;
+  width: 20%;
+}
+
+.me {
+  display: block;
+  color: #1269db;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  margin-bottom: 1.5em;
+}

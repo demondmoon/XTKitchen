@@ -1,0 +1,11 @@
+.location {
+  margin: 10em auto 4em;
+  width: 90%;
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .location {
+    text-align: center;
+  }
+}

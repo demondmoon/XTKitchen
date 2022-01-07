@@ -1,0 +1,8 @@
+.input input {
+  width: 4rem;
+  height: 2rem;
+  text-align: left;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 1rem;
+}

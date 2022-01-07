@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Dosis:wght@700&family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Arvo','Dosis', 'Open Sans', sans-serif;
+  overflow-y: overlay;
+}
+
+body {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.body div{
+  flex-grow:0;
+}
+
+#root {
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+

@@ -1,0 +1,42 @@
+.introduction {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 80%;
+  max-height: 700px;
+  min-height: 350px;
+  background: linear-gradient(to right, #FFEFBA, #FFFFFF);
+  color: black;
+  font-family: 'Open Sans';
+  margin: 2rem auto;
+  padding: 2rem 2rem 4rem;
+  border-radius: 20px;
+  box-shadow: 0 1px 18px 10px rgba(0,0,0,0.25);
+  animation: introduction-appear 1s ease-out backwards;
+}
+
+.introduction h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.introduction p {
+  max-width: 70%;
+  margin: 1em auto;
+}
+
+
+@keyframes introduction-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
